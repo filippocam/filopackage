@@ -15,6 +15,10 @@ func Hello() {
 	fmt.Println("Hello!")
 }
 
+func Prova() {
+	fmt.Println("Provaaaaaa!")
+}
+
 // Hi dfsdfs
 func Hi() {
 	test()
