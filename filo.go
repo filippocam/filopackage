@@ -1,5 +1,5 @@
 // Package filo bla bla bla
-package filo
+package filopackage
 
 // Filo returns "ciao"
 func Filo() string {
