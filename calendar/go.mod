@@ -1,3 +1,3 @@
-module github.com/filippocam/filopackage
+module github.com/filippocam/filopackage/calendar
 
 go 1.14
