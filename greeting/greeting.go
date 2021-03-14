@@ -17,8 +17,7 @@ const MyConstant = 5
 func Hello() {
 	test()
 	fmt.Println("Hello!")
-	fmt.Println("quote.Hello(): ", quote.Hello())
-	fmt.Println("len(quote.Hello()): ", utf8.RuneCountInString(quote.Hello()))
+	fmt.Println("len(quoteV3.Hello()): ", utf8.RuneCountInString(quoteV3.HelloV3()))
 	fmt.Println("quoteV3: ", quoteV3.HelloV3())
 }
 
