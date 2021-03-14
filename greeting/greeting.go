@@ -3,7 +3,7 @@ package greeting
 
 import (
 	"fmt"
-	"rsc.io/quote"
+	quoteV3 "rsc.io/quote/v3"
 	"unicode/utf8"
 )
 
@@ -19,6 +19,7 @@ func Hello() {
 	fmt.Println("Hello!")
 	fmt.Println("quote.Hello(): ", quote.Hello())
 	fmt.Println("len(quote.Hello()): ", utf8.RuneCountInString(quote.Hello()))
+	fmt.Println("quoteV3: ", quoteV3.HelloV3())
 }
 
 //Prova dsfsfds
