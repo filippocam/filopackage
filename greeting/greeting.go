@@ -4,6 +4,7 @@ package greeting
 import (
 	"fmt"
 	"rsc.io/quote"
+	"unicode/utf8"
 )
 
 // MyConstant fsdsfd
@@ -17,6 +18,7 @@ func Hello() {
 	test()
 	fmt.Println("Hello!")
 	fmt.Println("quote.Hello(): ", quote.Hello())
+	fmt.Println("len(quote.Hello()): ", utf8.RuneCountInString(quote.Hello()))
 }
 
 //Prova dsfsfds
