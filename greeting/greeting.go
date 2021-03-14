@@ -16,7 +16,7 @@ const MyConstant = 5
 func Hello() {
 	test()
 	fmt.Println("Hello!")
-	quote.Hello()
+	fmt.Println("quote.Hello(): ", quote.Hello())
 }
 
 //Prova dsfsfds
