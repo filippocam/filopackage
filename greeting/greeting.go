@@ -20,6 +20,11 @@ func Prova() {
 	fmt.Println("Provaaaaaa!")
 }
 
+//Prova dsfsfds
+func Prova2() {
+	fmt.Println("Provaaaaaa22222!")
+}
+
 // Hi dfsdfs
 func Hi() {
 	test()
