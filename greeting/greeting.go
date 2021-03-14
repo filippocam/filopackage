@@ -1,7 +1,10 @@
 // Package greeting : descrizione package greeting
 package greeting
 
-import "fmt"
+import (
+	"fmt"
+	"rsc.io/quote"
+)
 
 // MyConstant fsdsfd
 const MyConstant = 5
@@ -13,6 +16,7 @@ const MyConstant = 5
 func Hello() {
 	test()
 	fmt.Println("Hello!")
+	quote.Hello()
 }
 
 //Prova dsfsfds
